@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        cosole.log(typeof(cadena));
+        let cadena="cadena"; // String
+        cadena=7;
+        cosole.log(typeof(cadena));
+        let valido=true; //Buleano
+       /*if (valido){
+
+        }
+        */ 
+       console.log(7==="7");
+
+      /*let num=prompt("Escribe un numero: ");
+       console.log(num+7); = 77 pq es String + 7*/ 
+
+       let num=prompt("Escribe un numero: ");
+        if(isNaN(parseInt(num))){
+            alert("no es un numero");
+        }else{
+            alert(parseInt(num)+1);
+        }
+      
+       console.log(isNaN(parseInt(num)));
+       console.log(parseInt(num)); //Si no puede comvertirse a numero por consola sale NaN (Not a number)
+       console.log(parseInt (num)+7);
+    </script>
+
+</body>
+</html>
